@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f9f9;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #333;
+}
+
+header {
+    background-color: #00796b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #525252;
+    color: #fff;
+    resize: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.clear-button {
+    background-color: #f44336;
+    margin-left: 10px;
+}
+
+.clear-button:hover {
+    background-color: #d32f2f;
+}
+
+.output-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #00796b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    textarea {
+        height: 150px;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    textarea {
+        height: 250px;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    textarea {
+        height: 300px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    textarea {
+        height: 350px;
+    }
+
+    footer {
+        margin-top: 60px;
+    }
+}
