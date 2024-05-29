@@ -1,9 +1,9 @@
 # Text-to-Speech
 ---
 
-# Text-to-Speech (TTS) Web Application
+# Text-to-Speech Web Application
 
-This is a simple web application that allows you to convert text into speech using the browser's built-in Text-to-Speech (TTS) capabilities. Users can enter text into a textarea, click a "Speak" button to have the text spoken aloud.
+This is a simple web application that allows you to convert text into speech using the browser's built-in Text-to-Speech capabilities. Users can enter text into a textarea, click a "Speak" button to have the text spoken aloud.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ This is a simple web application that allows you to convert text into speech usi
 
 ## Demo
 
-You can see a live demo of this TTS web application here: [Live Demo](https://nati673.github.io/TTS/)
+You can see a live demo of this Text to Speech web application here: [Live Demo](https://nati673.github.io/TTS/)
 
 ## Features
 
@@ -25,7 +25,7 @@ You can see a live demo of this TTS web application here: [Live Demo](https://na
 
 ## Getting Started
 
-To run this TTS web application locally or integrate it into your project, follow these steps:
+To run this Text to Speech web application locally or integrate it into your project, follow these steps:
 
 1. Clone this repository to your local machine:
 
@@ -56,4 +56,3 @@ Contributions are welcome! Here are some ways you can contribute to this project
 - Report bugs and issues.
 - Suggest new features or improvements.
 - Submit pull requests to address open issues or add enhancements.
---
